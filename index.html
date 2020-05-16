@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>2048</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class = 'header'>
+        <h1 class = 't1'>2048</h1>
+       <div class = 'score'>
+            <div class = 'now'>0</div>
+            <div class = 'best'>0</div>
+        </div>
+    </div>
+        
+    <div class = 'info'>
+        <a class = 'rs'  onclick="restart()">Restart</a>
+        <h2 class = 't2'>Enjoy <strong>2048</strong></h2>
+        <div class="above-game">
+          <p>You can change the number of line and row by changing WIDTH and HEIGHT in main.js</p>
+        </div>
+    </div>
+
+    <div id = 'game'></div>
+</body>
+
+</html>
